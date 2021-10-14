@@ -31,7 +31,7 @@ export default function Home() {
             <h2>Twitter &rarr;</h2>
           </a>
 
-          <a href="https://www.materialityexposed.com" className={styles.card}>
+          <a href="http://www.materialityexposed.com" className={styles.card}>
             <h2>Materiality Exposed exhibition &rarr;</h2>
           </a>
 
