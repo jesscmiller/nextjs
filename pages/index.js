@@ -17,7 +17,7 @@ export default function Home() {
         </h1>
 
         <p className={styles.description}>
-          A new site is currently under construction, please bear with us!
+          A new site is currently under construction please bear with us
         </p>
 
         <div className={styles.grid}>
