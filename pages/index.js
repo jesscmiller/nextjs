@@ -28,25 +28,13 @@ export default function Home() {
           </a>
 
           <a href="https://www.twitter.com/jessicacmiller_" className={styles.card}>
-            <h2>Learn &rarr;</h2>
+            <h2>Twitter &rarr;</h2>
           </a>
 
-          <a>
-            href="https://www.materialityexposed.com"
-            className={styles.card}
-          
+          <a href="https://www.materialityexposed.com" className={styles.card}>
             <h2>Materiality Exposed exhibition &rarr;</h2>
           </a>
 
-          <a>
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          
-            <h2>Deploy &rarr;</h2>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
         </div>
       </main>
 
