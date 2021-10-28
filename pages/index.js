@@ -5,7 +5,10 @@ var link = document.createElement('link');
 link.setAttribute('rel','stylesheet');
 link.setAttribute('type','text/css');
 link.setAttribute('href','https://fonts.googleapis.com/css?family=Quattrocento+Sans');
-document.head.appenChild(link);
+if (typeof window === 'object') {
+  document.head.appenChild(link);
+}
+
 
 export default function Home() {
   return (
