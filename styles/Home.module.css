@@ -47,16 +47,19 @@
 .title {
   margin: 0;
   line-height: 1.15;
+  font-family: Quattrocentro Sans;
   font-size: 4rem;
 }
 
 .title,
 .description {
+  font-family: Quattrocentro Sans;
   text-align: center;
 }
 
 .description {
   line-height: 1.5;
+  font-family: Quattrocentro Sans;
   font-size: 1.5rem;
 }
 
