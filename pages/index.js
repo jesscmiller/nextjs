@@ -1,7 +1,11 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
-<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Quattrocento+Sans" />
+var link = document.createElement('link');
+link.setAttribute('rel','stylesheet');
+link.setAttribute('type','text/css');
+link.setAttribute('href', 'https://fonts.googleapis.com/css?family=Quattrocento+Sans');
+document.head.appenChild(link);
 
 export default function Home() {
   return (
