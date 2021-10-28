@@ -4,7 +4,7 @@ import styles from '../styles/Home.module.css'
 var link = document.createElement('link');
 link.setAttribute('rel','stylesheet');
 link.setAttribute('type','text/css');
-link.setAttribute('href', 'https://fonts.googleapis.com/css?family=Quattrocento+Sans');
+link.setAttribute('href','https://fonts.googleapis.com/css?family=Quattrocento+Sans');
 document.head.appenChild(link);
 
 export default function Home() {
