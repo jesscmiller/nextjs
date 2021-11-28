@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Navbar from '../comps/Navbar'
-import Navbar from '../comps/Footer'
+import Footer from '../comps/Footer'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
