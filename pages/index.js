@@ -7,12 +7,13 @@ import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
-   <div>
-    <Navbar />
-    <h1>Homepage</h1>
-    <p>Hello</p>
-    <Footer />
-   </div>
+    <div>
+      <Navbar />
+      <h1>Homepage</h1>
+      <p>Hello</p>
+      <Footer />
+     </div>
+  )
 
       <main className={styles.main}>
         <h1 className={styles.title}>
