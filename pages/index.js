@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <div>
       <Navbar />
-      <h1>Welcome to &Jessicaapos;s website!</h1>
+      <h1>Welcome to Jessica's website!</h1>
       <p>My new site is currently under construction so please bear with me.</p>
       <Footer />
     </div>
