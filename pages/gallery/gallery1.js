@@ -1,4 +1,4 @@
-const Gallery 1 = () => {
+const Gallery1 = () => {
   return (
     <div>
       <h1>Gallery 1</h1>
@@ -9,4 +9,4 @@ const Gallery 1 = () => {
   );
 }
 
-export default Gallery 1; 
+export default Gallery1; 
