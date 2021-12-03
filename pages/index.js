@@ -9,12 +9,8 @@ export default function Home() {
   return (
     <div>
       <Navbar />
-      <main className={styles.main}>
-        <h1className={styles.title}>Welcome to &Jessicaapos;s website!</h1>
-        <p className={styles.description}>
-          My new site is currently under construction so please bear with me.
-         </p>
-      </main>	
+      <h1>Welcome to &Jessicaapos;s website!</h1>
+      <p>My new site is currently under construction so please bear with me.</p>
       <Footer />
     </div>
   )
