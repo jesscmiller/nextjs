@@ -9,9 +9,13 @@ export default function Home() {
   return (
     <div>
       <Navbar />
-      <h1>Homepage</h1>
-      <p>Hello</p>
+      <main className={styles.main}>
+        <h1className={styles.title}>Welcome to &Jessicaapos;s website!</h1>
+        <p className={styles.description}>
+          My new site is currently under construction so please bear with me.
+         </p>
+      </main>	
       <Footer />
-     </div>
+    </div>
   )
 }
