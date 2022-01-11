@@ -1,8 +1,8 @@
 const Footer = () => {
   return ( 
-    <div>
+    <Footer>
       Copyright 2021 Jessica Miller
-    </div>
+    </Footer>
   );
 }
 
