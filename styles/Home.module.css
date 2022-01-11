@@ -1,4 +1,12 @@
+@font-face {
+  font-family: 'Quattrocentro Sans';
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: optional;
+  src: url('/public/fonts/QuattrocentoSans.woff2') format('woff2');
+}
 .container {
+  font-family: 'Quattrocentro Sans';
   min-height: 100vh;
   padding: 0 0.5rem;
   display: flex;
@@ -29,7 +37,6 @@
 .title {
   margin: 0;
   line-height: 1.15;
-  font-family: "Quattrocentro Sans";
   font-size: 4rem;
 }
 
@@ -40,7 +47,6 @@
 
 .description {
   line-height: 1.5;
-  font-family: "Quattrocentro Sans";
   font-size: 1.5rem;
 }
 
@@ -48,7 +54,6 @@
   background: #fafafa;
   border-radius: 5px;
   padding: 0.75rem;
-  font-family: "Quattrocentro Sans";
   font-size: 1.1rem;
 }
 
@@ -82,13 +87,11 @@
 
 .card h2 {
   margin: 0 0 1rem 0;
-  font-family: "Quattrocentro Sans";
   font-size: 1.5rem;
 }
 
 .card p {
   margin: 0;
-  font-family: "Quattrocentro Sans";
   font-size: 1.25rem;
   line-height: 1.5;
 }
