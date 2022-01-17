@@ -10,6 +10,7 @@ export default function Home() {
       <p className={styles.text}>My new site is currently under construction so please bear with me.</p>
       <Link href="https://www.instagram.com/jessc.miller/">
         <a className={styles.btn}>Follow me on Instagram</a>
+      </Link>
     </div>
   )
 }
