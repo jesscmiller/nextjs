@@ -9,9 +9,7 @@ export default function Home() {
     <div>
       <h1 className={styles.title}>Welcome to Jessica&apos;s website!</h1>
       <p className={styles.text}>My new site is currently under construction so please bear with me.</p>
-      <Link href="www.instagram.com/jessc.miller/">
-        <a className={styles.btn}>Follow me on Instagram</a>
-      </Link>
+      <a href={'https://www.instagram.com/jessc.miller/'}> a className={styles.btn}>Follow me on Instagram</a>
     </div>
   )
 }
