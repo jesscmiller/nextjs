@@ -11,13 +11,12 @@ body {
   padding-top: 5px;
   font-size: 50px;
   font-weight: 100;
+  line-height: 0px;
 }
 .subheader {
   color: #4a4a4a;
   text-align: center;
   font-weight: 700;
-  margin:0;
-  padding:0;
 }
 
 
