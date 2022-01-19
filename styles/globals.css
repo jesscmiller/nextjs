@@ -7,14 +7,14 @@ body {
 }
 .mainheader {
   color: #f47373;
-  padding-bottom: 10px;
+  padding-bottom: 5px;
   text-align: center;
   padding-top: 10px;
-  font-size: 30px;
+  font-size: 20px;
 }
 .subheader {
   color: #f47373;
-  padding-bottom: 10px;
+  padding-bottom: 5px;
   text-align: center;
 }
 
