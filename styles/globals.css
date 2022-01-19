@@ -5,16 +5,12 @@ body {
   color: #333;
   font-family: "Quattrocento Sans";
 }
-title {
+.header {
   color: #f47373;
   padding-bottom: 20px;
   text-align: center;
 }
 
-text {
-  color: #777;
-  text-align: center;
-}
 
 a {
   color: #194d33;
