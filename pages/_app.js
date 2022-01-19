@@ -7,7 +7,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <div className="mainheader">
-        <p>JESSICA MILLER<p>
+        <p>JESSICA MILLER</p>
       </div>
       <div className="subheader">
           <p>PHOTOGRAPHER</p>
