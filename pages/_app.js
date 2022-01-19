@@ -6,7 +6,7 @@ import Footer from '../comps/Footer.js'
 function MyApp({ Component, pageProps }) {
   return (
     <>
-      <div class="header">
+      <div className="header">
         <h1>Header</h1>
       </div>
       <p>PHOTOGRAPHER</p>
