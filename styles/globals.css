@@ -1,24 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Quattrocento+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 body {
-  background: #f2f2f2;
+  background: #f7f9f9;
   color: #333;
   font-family: "Quattrocento Sans";
 }
 .mainheader {
-  color: #f47373;
+  color: #4a4a4a;
   text-align: center;
   padding-top: 5px;
   font-size: 25px;
 }
 .subheader {
-  color: #f47373;
+  color: #4a4a4a;
   text-align: center;
 }
 
 
 a {
-  color: #194d33;
+  color: #4a4a4a;
   text-decoration: none;
 }
 nav { 
@@ -38,6 +38,6 @@ nav a {
   text-align: center;
   justify-content: center;
   margin-top: 60px;
-  color: #333;
+  color: #4a4a4a;
   border-top: 1px solid #eaeaea;
 }
