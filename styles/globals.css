@@ -5,6 +5,13 @@ body {
   color: #333;
   font-family: "Quattrocento Sans";
 }
+header {
+  color: #333;
+  font-family: "Quattrocentro Sans";
+  text-align: center;
+  justify-content:center;
+  padding: 30px 0;
+}
 a {
   color: #194d33;
   text-decoration: none;
