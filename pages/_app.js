@@ -6,12 +6,8 @@ import Footer from '../comps/Footer.js'
 function MyApp({ Component, pageProps }) {
   return (
     <>
-      <div className="mainheader">
-        <p>JESSICA MILLER</p>
-      </div>
-      <div className="subheader">
-          <p>PHOTOGRAPHER</p>
-      </div>
+      <div className="mainheader"> <p>JESSICA MILLER</p> </div>
+      <div className="subheader"> <p>PHOTOGRAPHER</p> </div>
       <Navbar/>
       <Component {...pageProps} />
       <Footer/>
