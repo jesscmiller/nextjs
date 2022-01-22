@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <div>
       <p className={styles.title}>Welcome!</p>
-      <p className={styles.text}>My new site is currently under construction so please bear with me.</p>
+      <p className={styles.text}>My new site is currently under construction so please bear with me. Come back soon</p>
       <Link href={'https://www.instagram.com/jessc.miller/'}> 
         <a className={styles.btn}>Follow me on Instagram</a>
       </Link>
