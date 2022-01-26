@@ -44,3 +44,12 @@ nav a {
   color: #4a4a4a;
   border-top: 1px solid #eaeaea;
 }
+
+.not-found{
+  text-align: center;
+}
+
+.not-found a{
+  color: aquamarine;
+  text-decoration: underline;
+}
