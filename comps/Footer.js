@@ -1,6 +1,6 @@
 const Footer = () => {
   return ( 
-    <div class="footer">
+    <div className="footer">
       Copyright 2021 Jessica Miller
     </div>
   );
