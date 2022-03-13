@@ -9,12 +9,9 @@ const Blog = () => {
       </Head>
       <div>
         <h1>Blog</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa porro reiciendis ea quibusdam nemo nobis hic iure quos odio corporis, laudantium animi laborum voluptatem quia, veniam fuga aperiam officia sequi!</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa porro reiciendis ea quibusdam nemo nobis hic iure quos odio corporis, laudantium animi laborum voluptatem quia, veniam fuga aperiam officia sequi!</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa porro reiciendis ea quibusdam nemo nobis hic iure quos odio corporis, laudantium animi laborum voluptatem quia, veniam fuga aperiam officia sequi!</p>
-        <div> 
+      </div>  
+      <div> 
           <BlogPostPreview/>
-        </div>
       </div>
     </div>
   
@@ -24,8 +21,12 @@ const Blog = () => {
 const BlogPostPreview = () => {
   return (
     <div style={{ maxWidth: "400px"}}>
-      <Image src="/bwsteps1.jpg" alt="black and white steps" style= {{ width: "100%"}} />
+      <Image src="./blogimages/bwsteps1.jpg" alt="black and white steps" width={400} />
+      <h2>Portsmouth images blog</h2>
+      <div>13 March 2022</div>
+      <p>This is where the excerpt text will be</p>
     </div>
+
   );
 };
 
