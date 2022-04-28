@@ -1,6 +1,6 @@
 import Head from"next/head";
+import Image from "../../comps/Image/Image";
 import { getAllPosts } from "../../lib/posts";
-import Image from "next/image";
 
 const Blog = () => {
   const posts = getAllPosts();
@@ -26,7 +26,7 @@ const BlogPostPreview = (props) => {
   const { data } = props;
   return (
     <div style={{ maxWidth: "400px", marginBottom: "50px"}}>
-      <Image src={data.coverImage} alt={data.title} width={350} height={550}/>
+      <Image src={data.coverImage} alt={data.title} layout="fill"/>
       <h2>{data.title}</h2>
       <div>{data.publishDate}</div>
       <p>
